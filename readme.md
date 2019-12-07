@@ -6,8 +6,8 @@
 
 - NJOKU EMMANUEL KALU, kalunjoku123@gmail.com
 - Aboaba Akorede, akoredeaboaba12@gmail.com
-- Soronnadi Anthony, noahnaheem@gmail.com
-- Naheem Noah, soronnadianthony@gmail.com
+- Soronnadi Anthony, soronnadianthony@gmail.com 
+- Naheem Noah, noahnaheem@gmail.com
 
 ### MEMBERS ROLES
 - Njoku Emmanuel Kalu : Responsible for creating the frontend and smart contracts and connecting them together using web3.js
@@ -21,7 +21,7 @@ lack of Security during elections, thereby putting the lifes of citizens at grea
 
 ## Proposed Solution
 
-A decentralized Voting Application which is autonomous and runs on the ethereum blockchain.
+A decentralized Voting Application which is autonomous and runs on the ethereum blockchain. These application will allow users with a unique blockchain address/voter id vote only once, once user casts vote, the vote is being recorded and cannot be changed again, Thereby making the system corruption free. 
 
 ## Proposed Stack
 
@@ -30,8 +30,8 @@ Web3Js, Javascript, Solidity, Truffle
 ## Benefits
 
 - Each Blockchain Address/Voters Id is allowed to vote only once
-- Every Vote is being counted
-- Results cannot be manipulated
+- Citizens will be able to vote from their living room, not scared of being harrased by electoral and security bodies at theri polling unit.
+- Results cannot be manipulated and votes are secured
 - Platform has no central authority, therefore making the application safe
 
 ## Folder Structure

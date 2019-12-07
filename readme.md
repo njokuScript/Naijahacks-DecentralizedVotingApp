@@ -29,3 +29,5 @@
 ### 3. Naheem Noah - Review Codes and Manage Collaboration
 
 ### ISSUES:
+
+# FOLDER STRUCTURE:

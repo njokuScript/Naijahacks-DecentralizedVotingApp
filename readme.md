@@ -1,31 +1,31 @@
-### NAIJAHACKS2019
+# NAIJAHACKS HACKATHON 2019
 
-# TEAM ACE
+## TEAM ACE
 
-# PROJECT TITLE:
+### TEAM MEMBERS
 
-### Decentralized Voting Application
+- NJOKU EMMANUEL KALU, kalunjoku123@gmail.com
+- Aboaba Akorede, akoredeaboaba12@gmail.com
+- Soronnadi Anthony, noahnaheem@gmail.com
+- Naheem Noah, soronnadianthony@gmail.com
 
-# PROJECT DESCRIPTION:
+## Problem
 
-### This is a Decentralized Voting Application that runs on the ethereum Blockchain, here a user with a unique blockchain address will be able to vote for a candidate and votes only once, with it's votes counted.
+lack of Security during elections, thereby putting the lifes of citizens at great risk, also due to bad governance, Votes are not secured, i.e. the citizens votes are not counted and being manipulated.
 
-# TEAM MEMBERS: NAME || GITHUB_USERNAME
+## Proposed Solution
 
-### 1. NJOKU EMMANUEL KALU || Khay-EMMA
+A decentralized Voting Application which is autonomous and runs on the ethereum blockchain.
 
-### 2. Akorede
+## Proposed Stack
 
-### 3. Soronnadi Anthony || ConceptualCode
+Web3Js, Javascript, Solidity, Truffle
 
-### 4. Naheem Noah || hum@Naheem001
+## Benefits
 
-## TEAM MEMBERS ROLES:
+- Each Blockchain Address/Voters Id is allowed to vote only once
+- Every Vote is being counted
+- Results cannot be manipulated
+- Platform has no central authority, therefore making the application safe
 
-### 1. Njoku Emmanuel - Implement Smart Contracts(backend) and connect FrontEnd using Web3.js
-
-### 2. Akorede && Soronnadi Anthony - Design User Interface and WireFrame
-
-### 3. Naheem Noah - Review Codes and Manage Collaboration
-
-# ISSUES:
+## Folder Structure

@@ -9,6 +9,12 @@
 - Soronnadi Anthony, noahnaheem@gmail.com
 - Naheem Noah, soronnadianthony@gmail.com
 
+### MEMBERS ROLES
+- Njoku Emmanuel Kalu : Responsible for creating the frontend and smart contracts and connecting them together using web3.js
+- Aboaba Akorede: Responsible for implementing User Interface and MockUps
+- Soronnadi Anthony: Responsible for implementing User Interface and MockUps, Marketer/Idea Presenter
+- Naheem Noah: Project Documentation
+
 ## Problem
 
 lack of Security during elections, thereby putting the lifes of citizens at great risk, also due to bad governance, Votes are not secured, i.e. the citizens votes are not counted and being manipulated.

@@ -46,7 +46,8 @@ Web3Js, Javascript, Solidity, Truffle
 - Finally create a pull request
 
 #### Day 3
--checkout to day3-api
--setup database "ganache"
+
+- checkout to day3-api
+- setup database "ganache"
 
 ## Folder Structure

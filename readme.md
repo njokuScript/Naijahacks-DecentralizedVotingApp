@@ -45,4 +45,8 @@ Web3Js, Javascript, Solidity, Truffle
 - make a commit, push changes to github
 - Finally create a pull request
 
+#### Day 3
+-checkout to day3-api
+-setup database "ganache"
+
 ## Folder Structure

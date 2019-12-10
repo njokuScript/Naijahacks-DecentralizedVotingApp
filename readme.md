@@ -55,6 +55,7 @@ Web3Js, Javascript, Solidity, Truffle
 - checkout to day4-implement
 - Configure Truffle framework for smart contracts development
 - Download Metamask extension
+- write unit tests for smart contracts
 
 ## Folder Structure
 

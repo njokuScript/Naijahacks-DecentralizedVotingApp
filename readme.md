@@ -50,4 +50,20 @@ Web3Js, Javascript, Solidity, Truffle
 - checkout to day3-api
 - setup database "ganache"
 
+### Day 4
+- checkout to day4-implement
+- Configure Truffle framework for smart contracts development
+- Download Metamask extension
+
 ## Folder Structure
+
+- contracts directory: this is where all smart contacts live. We already have a Migration contract that handles our migrations to the blockchain.
+
+- migrations directory: this is where all of the migration files live. These migrations are similar to other web development frameworks that require migrations to change the state of a database. Whenever we deploy smart contracts to the blockchain, we are updating the blockchain's state, and therefore need a migration.
+
+- node_modules directory: this is the home of all of our Node dependencies.
+
+- src directory: this is where we'll develop our client-side application.
+test directory: this is where we'll write our tests for our smart contracts.
+
+- truffle.js file: this is the main configuration file for our Truffle project

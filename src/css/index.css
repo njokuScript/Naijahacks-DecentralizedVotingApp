@@ -11,15 +11,6 @@
     color: #000000;
 }
 
-.container {
-    background-image: url("arms.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    background-color: transparent;
-
-}
-
 a:hover {
     color: #017B33;
 }

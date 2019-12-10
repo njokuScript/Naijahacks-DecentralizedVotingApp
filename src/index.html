@@ -44,7 +44,7 @@
         <hr />
         <br />
         <div id="loader">
-          <p class="text-center"> Loading.....</p>
+          <p class="text-center"> <img src="loading-gear.gif" alt="loading"></p>
         </div>
         <div id="content" style="display:none">
           <table class="table">
@@ -64,9 +64,9 @@
 
           <hr />
           <form onSubmit="App.castVote(); return false;">
-            <div class="form-group">
+            <div class="form-group text-center">
               <label for="candidatesSelect">Select Candidate</label>
-              <select class="form-control" id="candidatesSelect">
+              <select class="form-control" id="candidatesSelect" >
               </select>
             </div>
             <button type="submit" class="btn btn-primary">Vote</button>

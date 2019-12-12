@@ -81,16 +81,39 @@ Web3Js, Javascript, Solidity, Truffle
 
 - truffle.js file: this is the main configuration file for our Truffle project
 
-### RUNNING THE APPLICATION LOCALLY
+## RUNNING THE APPLICATION LOCALLY
 
-## INSTALLATION
+## Dependencies
 
-#### clone the repo using \$ git clone
+### Install these prerequisites to run this application locally
 
-#### run \$ npm install
+- NPM: https://nodejs.org
+- Truffle: https://github.com/trufflesuite/truffle
+- Ganache: http://truffleframework.com/ganache/
+- Metamask: https://metamask.io/
 
-### Running application
+### Step 1. Clone the project
 
-#### npm run dev
+- https://github.com/Khay-EMMA/Naijahacks-DecentralizedVotingApp.git
 
-## NB, You must have metamask chrome extension downloaded and logged in to your system, also you must have downloaded ganache blockchain
+### Step 2. Install dependencies
+
+\$ npm install
+
+### Step 3. Start Ganache
+
+Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance.
+
+### Step 4. Compile & Deploy Election Smart Contract
+
+\$ truffle migrate --reset You must migrate the election smart contract each time your restart ganache.
+
+### Step 5. Configure Metamask
+
+- Unlock Metamask
+- Connect metamask to your local Etherum blockchain provided by Ganache.
+- Import an account provided by ganache.
+
+### Step 6. Run the Front End Application
+
+\$ npm run dev Visit this URL in your browser: http://localhost:3000

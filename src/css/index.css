@@ -11,6 +11,24 @@
     color: #000000;
 }
 
-a:hover {
-    color: #017B33;
+body::after {
+    content: "";
+    background: url(arms.png);
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.table {
+    background-color: #ffffff;
+    border: 1px solid #000000;
 }

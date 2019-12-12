@@ -28,6 +28,8 @@ contract Election{
         addCandidates("Muhamadu Buhari",  "APC", "NW");
         addCandidates("Atiku Abubakar", "PDP", "NE");
         addCandidates("Njoku Emmanuel", "APGA", "SE");
+        addCandidates("Peter Obi", "AA", "SE");
+        addCandidates("Nyesom Wike", "YP", "SS");
     }
         function addCandidates (string memory _name,  string memory _party, string memory _region)  private {
             candidatesCount++;

@@ -11,6 +11,25 @@
     color: #000000;
 }
 
+.submitbutton {
+    position: absolute;
+    background-color: green;
+    color: #ffffff;
+    font-size: medium;
+    padding: 2px 30px;
+    box-shadow: 10px;
+    border-radius: 8px;
+
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.address {
+    margin-top: 50px;
+}
+
 body::after {
     content: "";
     background: url(arms.png);

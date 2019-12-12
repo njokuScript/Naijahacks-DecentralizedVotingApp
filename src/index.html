@@ -32,7 +32,7 @@
         <li><a href="#">How it Works</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span>REGISTER AS A VOTER</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>LogOut</a></li>
       </ul>
     </div>
   </nav>
@@ -47,21 +47,22 @@
           <p class="text-center"><img src="loading-gear.gif" alt="loading" /></p>
         </div>
         <div id="content" style="display:none">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Political Party</th>
-                <th scope="col">Region</th>
-                <th scope="col">Votes</th>
-              </tr>
-            </thead>
-            <tbody id="candidatesResults">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class="thead-green">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Political Party</th>
+                  <th scope="col">Region</th>
+                  <th scope="col">Votes</th>
+                </tr>
+              </thead>
+              <tbody id="candidatesResults">
 
-            </tbody>
-          </table>
-
+              </tbody>
+            </table>
+          </div>
           <hr />
           <form onSubmit="App.castVote(); return false;">
             <div class="form-group">
@@ -69,10 +70,14 @@
               <select class="form-control" id="candidatesSelect">
               </select>
             </div>
-            <button type="submit" class="btn btn-primary">Vote</button>
+            <div class="wrapper">
+              <button type="submit" class="submitbutton">Vote</button>
+            </div>
             <hr />
           </form>
-          <p id="accountAddress" class="text-center"></p>
+          <div class="address">
+            <p id="accountAddress" class="text-center"></p>
+          </div>
         </div>
       </div>
     </div>

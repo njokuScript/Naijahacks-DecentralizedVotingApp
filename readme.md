@@ -57,8 +57,7 @@ Web3Js, Javascript, Solidity, Truffle
 
 - checkout to day4-implement
 - Configure Truffle framework for smart contracts development
-- Download Metamask extension
-- write unit tests for smart contracts
+- update user interface
 
 ## Folder Structure
 
@@ -79,13 +78,13 @@ Web3Js, Javascript, Solidity, Truffle
 
 ## INSTALLATION
 
-- clone the repo using $ git clone
+#### clone the repo using $ git clone
 
-- run $ npm install
+#### run $ npm install
 
 ### Running application
 
-- npm run dev 
+#### npm run dev 
 
 ## NB, You must have metamask chrome extension downloaded and logged in to your system, also you must have downloaded ganache blockchain
 
